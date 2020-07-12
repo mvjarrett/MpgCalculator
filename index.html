@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>MPG calculator</title>
+</head>
+<body>
+  <div class="calc">
+    <div class='panel'>
+      <form>
+      <div class="form-row">
+             <p class='dtag'>Miles Travelled:
+               <input
+                      id="dist"
+                      type="number"
+                      min="1"
+                      max="1000000"
+                      class="form-control">
+                      </p>
+        </div>
+        <div class="form-row">
+              <p class='dtag'>Gallons of Fuel:
+                <input
+                       id="fuel"
+                       type="number"
+                       min="1"
+                       max="10000000"
+                       step="1"
+                       class="form-control">
+                       </p>
+        </div>
+        <div class="form-row">
+              <p class='dtag'>Price per gallon:
+                <input
+                       type="number"
+                       id="costPer"
+                       type="number"
+                       class="form-control">
+                       </p>
+        </div>
+        <div>
+            <input type="button" class="btn" onclick ="mileageCalc()" value="Calculate MPG!">
+        </div>
+      </form>
+
+        <p id="result"></p>
+        <p id="cost"></p>
+
+    </div>
+</body>
+</html>

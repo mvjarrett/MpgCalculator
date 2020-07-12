@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #21D4FD;
+  background: linear-gradient(225deg, #21D4FD 0%, #B721FF 86%);
+  }
+
+
+.calc{
+ height: 325px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px;
+  rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+.panel{
+  padding-left: 20px;
+}
+
+.dtag{
+  padding-top: 20px;
+  font-size: 1.2em
+}
+
+form input[type='number'] {
+  width: 180px;
+}
+
+.btn{
+  font-size: 1.4em;
+}
+
+
+
